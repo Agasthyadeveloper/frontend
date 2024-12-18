@@ -3,8 +3,10 @@
     "/",
     "/access-denied",
     "/add-meeting",
+    "/add-users",
     "/create-users",
     "/dashboard",
+    "/hr-dashboard",
     "/login",
     "/marketing-add-goals",
     "/marketing-goals",
@@ -13,6 +15,7 @@
     "/project-marketing",
     "/Sales-projects",
     "/Sales-Report",
-    "/view-users"
+    "/view-users",
+    "/view-users-details"
   ]
 }
