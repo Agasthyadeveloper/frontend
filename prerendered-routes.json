@@ -3,6 +3,7 @@
     "/",
     "/access-denied",
     "/add-meeting",
+    "/civil-dashboard",
     "/create-users",
     "/dashboard",
     "/hr-dashboard",
@@ -14,6 +15,7 @@
     "/project-marketing",
     "/Sales-projects",
     "/Sales-Report",
+    "/view-civil-management",
     "/view-users",
     "/view-users-details"
   ]
