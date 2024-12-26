@@ -2,6 +2,7 @@
   "routes": [
     "/",
     "/access-denied",
+    "/AccessDenied",
     "/add-meeting",
     "/civil-dashboard",
     "/civil-project",
