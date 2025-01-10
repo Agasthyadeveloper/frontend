@@ -23,7 +23,6 @@
     "/sub-stage-liaison-management",
     "/view-civil-management",
     "/view-liaison-management",
-    "/view-users",
-    "/view-users-details"
+    "/view-users"
   ]
 }
