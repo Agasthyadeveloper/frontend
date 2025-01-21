@@ -5,6 +5,7 @@
     "/add-meeting",
     "/civil-dashboard",
     "/civil-project",
+    "/create-bd-management",
     "/create-liaison-management",
     "/create-users",
     "/dashboard",
@@ -22,6 +23,9 @@
     "/Sales-Report",
     "/stage-liaison-management",
     "/sub-stage-liaison-management",
+    "/update-bd-details",
+    "/view-bd-details",
+    "/view-bd-management",
     "/view-civil-management",
     "/view-liaison-management",
     "/view-users"
