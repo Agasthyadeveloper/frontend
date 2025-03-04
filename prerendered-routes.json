@@ -2,6 +2,7 @@
   "routes": [
     "/",
     "/access-denied",
+    "/attendance",
     "/bd-civil",
     "/bd-liaison",
     "/bd-marketing",
