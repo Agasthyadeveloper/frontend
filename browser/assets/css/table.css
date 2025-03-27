@@ -23,7 +23,7 @@ thead th {
     background: #b980e1;
     color: #fff;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 10.5px;
     text-align: left;
     text-transform: uppercase;
     border-radius: 5px;
@@ -32,22 +32,26 @@ thead th {
 }
 
 tbody tr {
-    animation: rowFadeIn 1.5s ease forwards;
+    animation: rowFadeIn 0.5s ease forwards;
     transform: translateY(40px);
     opacity: 0;
 }
 
-tbody tr:nth-child(1) {
+tbody tr {
+    animation-delay: 0.5s;
+}
+
+/* tbody tr:nth-child(1) {
     animation-delay: 0.5s;
 }
 
 tbody tr:nth-child(2) {
-    animation-delay: 0.8s;
+    animation-delay: 0.5s;
 }
 
 tbody tr:nth-child(3) {
-    animation-delay: 1.1s;
-}
+    animation-delay: 0.5s;
+} */
 
 tbody td {
     background: white;
@@ -57,7 +61,7 @@ tbody td {
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     position: relative;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     overflow: hidden;
     text-align: center;
 }
@@ -65,6 +69,7 @@ tbody td {
 tbody tr:hover td {
     transform: scale(1.015);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background-color: #dfdddd !important;
 }
 
 tbody td::before {
@@ -81,6 +86,8 @@ tbody td::before {
 tbody tr:hover td::before {
     animation: shimmer 1s ease-in-out forwards;
 }
+
+
 
 @keyframes shimmer {
     0% {
