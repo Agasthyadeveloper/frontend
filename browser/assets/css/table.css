@@ -22,7 +22,7 @@ table {
 thead th {
     background: #663399;
     color: #fff;
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-size: 10px;
     text-align: left;
     text-transform: uppercase;
@@ -51,8 +51,8 @@ tbody tr:nth-child(3) {
 
 tbody td {
     background: white;
-    padding: 15px 20px;
-    font-size: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
     color: #333;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ tbody td::before {
     width: 50%;
     height: 100%;
     background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-    transform: skewX(-25deg);
+    transform: skewX(-25deg)
 }
 
 tbody tr:hover td::before {
