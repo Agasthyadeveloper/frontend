@@ -16,6 +16,7 @@
     "/create-users",
     "/dashboard",
     "/hr-dashboard",
+    "/liaison-meeting",
     "/liaison-project",
     "/liaison-substage",
     "/login",
