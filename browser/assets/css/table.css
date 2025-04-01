@@ -78,3 +78,9 @@ tbody tr:hover td {
         opacity: 1;
     }
 }
+
+.title-header {
+    background-color: #663399 !important;
+    text-align: center;
+    color: white;
+  }
