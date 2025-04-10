@@ -54,10 +54,11 @@ tbody td {
     text-align: center;
 }
 
-tbody tr:hover td {
+tr:hover td {
     transform: scale(1.015);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     background-color: #dfdddd !important;
+    color: black !important;
 }
 
 @keyframes cinematicSlideIn {
@@ -83,4 +84,4 @@ tbody tr:hover td {
     background-color: #663399 !important;
     text-align: center;
     color: white;
-  }
+}
