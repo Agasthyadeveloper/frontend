@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
 
+
+
 .erp-container {
     width: 90%;
     max-width: 1200px;
@@ -13,6 +15,17 @@
     animation: cinematicSlideIn 2s ease forwards;
 }
 
+.title-header {
+    background-color: #663399;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -24,7 +37,6 @@ thead th {
     color: #fff;
     padding: 10px 20px;
     font-size: 10.5px;
-    text-align: left;
     text-transform: uppercase;
     border-radius: 5px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
@@ -32,13 +44,8 @@ thead th {
 }
 
 tbody tr {
-    animation: rowFadeIn 0.5s ease forwards;
-    transform: translateY(40px);
-    opacity: 0;
-}
-
-tbody tr {
-    animation-delay: 0.5s;
+    transform: none;
+    opacity: 1;
 }
 
 tbody td {
@@ -48,17 +55,15 @@ tbody td {
     color: #333;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
-    transition: all 0.1s ease;
-    overflow: hidden;
     text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 tr:hover td {
     transform: scale(1.015);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-    background-color: #dfdddd !important;
-    color: black !important;
+    background-color: #dfdddd;
+    color: black;
 }
 
 @keyframes cinematicSlideIn {
@@ -71,17 +76,4 @@ tr:hover td {
         opacity: 1;
         transform: rotateX(0) translateY(0);
     }
-}
-
-@keyframes rowFadeIn {
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-.title-header {
-    background-color: #663399 !important;
-    text-align: center;
-    color: white;
 }

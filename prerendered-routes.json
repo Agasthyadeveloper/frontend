@@ -47,6 +47,7 @@
     "/view-liaison-task",
     "/view-product",
     "/view-project",
+    "/view-stage",
     "/view-users"
   ]
 }
