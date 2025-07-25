@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
 
-
-
-.erp-container {
-    width: 90%;
-    max-width: 1200px;
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(25px);
-    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 40px;
-    transform-style: preserve-3d;
-    transform: rotateX(0deg);
-    animation: cinematicSlideIn 2s ease forwards;
-}
-
 .title-header {
     background-color: #663399;
     text-align: center;
@@ -48,6 +33,7 @@ tbody tr {
     opacity: 1;
 }
 
+
 tbody td {
     background: white;
     padding: 10px 20px;
@@ -57,12 +43,14 @@ tbody td {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    transform: translateZ(0);
+    /* Prevents layout jump when scaling */
 }
 
 tr:hover td {
     transform: scale(1.015);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-    background-color: #dfdddd;
+    background-color: #a5e5f8;
     color: black;
 }
 
@@ -76,4 +64,44 @@ tr:hover td {
         opacity: 1;
         transform: rotateX(0) translateY(0);
     }
+}
+
+.table-responsive {
+    margin-bottom: 2px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
+
+/* Scrollbar styling */
+.table-responsive::-webkit-scrollbar {
+    height: 10px;
+    /* horizontal scrollbar height */
+    border-radius: 8px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* track color */
+    border-radius: 8px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #E0C3FC, #8EC5FC);
+    border-radius: 8px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #D4B1F5, #7ABCF9);
+}
+
+.table-responsive::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(45deg, #C89EF0, #6AB8F6);
 }

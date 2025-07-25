@@ -43,11 +43,13 @@
     "/view-bd-details",
     "/view-bd-management",
     "/view-civil-management",
+    "/view-liaison-stage",
     "/view-liaison-substage",
+    "/view-liaison-substage-details",
     "/view-liaison-task",
+    "/view-liaison-task-details",
     "/view-product",
     "/view-project",
-    "/view-stage",
     "/view-users"
   ]
 }
