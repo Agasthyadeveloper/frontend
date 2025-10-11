@@ -1,6 +1,7 @@
 {
   "routes": [
     "/",
+    "/acc-meeting",
     "/access-denied",
     "/accounts-meeting",
     "/accounts-project",
