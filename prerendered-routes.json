@@ -2,6 +2,7 @@
   "routes": [
     "/",
     "/acc-company",
+    "/acc-company-report",
     "/acc-meeting",
     "/acc-project-company",
     "/access-denied",
