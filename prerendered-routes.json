@@ -1,10 +1,15 @@
 {
   "routes": [
     "/",
+    "/acc-assets-report",
+    "/acc-balance-details",
+    "/acc-companies",
     "/acc-company",
     "/acc-company-report",
     "/acc-meeting",
+    "/acc-monthly-report",
     "/acc-project-company",
+    "/acc-project-details",
     "/access-denied",
     "/accounts-meeting",
     "/accounts-project",
