@@ -1,6 +1,7 @@
 {
   "routes": [
     "/",
+    "/acc_company",
     "/acc-assets-report",
     "/acc-balance-details",
     "/acc-companies",
