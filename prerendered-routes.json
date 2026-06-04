@@ -32,6 +32,7 @@
     "/create-project",
     "/create-users",
     "/dashboard",
+    "/departments",
     "/employee-documents",
     "/employee-payroll",
     "/employee-payroll-profile",
