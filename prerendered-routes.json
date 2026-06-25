@@ -22,6 +22,7 @@
     "/attendance-app",
     "/attendance-edit-requests",
     "/attendance/absentees",
+    "/attendance/productivity-review",
     "/attendance/today-report",
     "/bd-civil",
     "/bd-liaison",
