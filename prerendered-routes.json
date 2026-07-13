@@ -70,6 +70,8 @@
     "/Sales-Report",
     "/schedule-meetings",
     "/tables",
+    "/travel-claims",
+    "/travel-claims-approval",
     "/update-bd-details",
     "/user-attendance-report",
     "/view-additional-task",
