@@ -71,6 +71,8 @@
     "/marketing-meeting",
     "/office-announcements",
     "/pending-payments",
+    "/procurement-control",
+    "/procurement-vendors",
     "/products",
     "/profile",
     "/project-accounds",
@@ -79,6 +81,8 @@
     "/project-purchase",
     "/project-report",
     "/projects",
+    "/purchase-indents",
+    "/purchase-orders",
     "/sales-meeting",
     "/Sales-projects",
     "/Sales-Report",
@@ -97,7 +101,6 @@
     "/view-liaison-substage-details",
     "/view-liaison-task-details",
     "/view-product",
-    "/view-project",
     "/view-scheduled-meetings",
     "/view-users"
   ]
