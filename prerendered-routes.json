@@ -23,7 +23,6 @@
     "/accounts/banking/history",
     "/accounts/banking/reconciliation",
     "/accounts/mts/loans",
-    "/accounts/product-ledger-mapping",
     "/accounts/reports/balance-sheet",
     "/accounts/reports/loan-mis",
     "/accounts/reports/profit-loss",
