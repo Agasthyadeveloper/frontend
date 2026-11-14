@@ -22,6 +22,7 @@
     "/accounts/banking/bank-accounts",
     "/accounts/banking/history",
     "/accounts/banking/reconciliation",
+    "/accounts/mts/chits",
     "/accounts/mts/loans",
     "/accounts/product-ledger-mapping",
     "/accounts/reports/balance-sheet",
